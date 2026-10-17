@@ -1,0 +1,13 @@
+algoritmo "Consumo de combustível"
+
+var
+  dist,qtegas,cons:real
+
+inicio
+  escreval("Digite a distância percorrida em KM: ")
+  leia(dist)
+  escreval("Digite a quantidade abastecida de combustível do seu veículo: ")
+  leia(qtegas)
+  cons<-dist/qtegas
+  escreval("O consumo médio do seu veículo é igual: ",cons," KM/L")
+fimalgoritmo

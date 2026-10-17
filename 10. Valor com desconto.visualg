@@ -1,0 +1,12 @@
+algoritmo "Valor com desconto"
+
+var
+  vlr,vlrdesc,desc: real
+
+inicio
+  escreval("Digite o valor: ")
+  leia(vlr)
+  desc<-10/100
+  vlrdesc<-vlr*desc
+  escreval("O valor original é: ",vlr," | O valor com desconto é: "vlrdesc," | O valor do desconto: "desc)
+fimalgoritmo

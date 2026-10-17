@@ -1,0 +1,13 @@
+algoritmo "Cálculo de IMC"
+
+var
+  peso,altura,IMC: real
+
+inicio
+  escreval("Digite o seu peso em KG: ")
+  leia(peso)
+  escreval("Digite sua altura em M: ")
+  leia(altura)
+  IMC<-peso/(altura*altura)
+  escreval("O seu valor de IMC é igual a: ",IMC)
+fimalgoritmo

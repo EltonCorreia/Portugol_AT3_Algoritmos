@@ -1,0 +1,12 @@
+algoritmo "6. Conversão de metros"
+
+var
+  vlrm,cm,mm: real
+
+inicio
+  escreval("Digite um valor em metros: ")
+  leia(vlrm)
+  cm<-vlrm*100
+  mm<-vlrm*1000
+  escreval("O valor de ",vlrm,"m corresponde a ",cm,"cm e ",mm,"mm.")
+fimalgoritmo

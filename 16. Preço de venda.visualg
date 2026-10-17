@@ -1,0 +1,14 @@
+algoritmo "Preço de venda"
+
+var
+  vlrcusto,prc,vlrluc,vlrfinal: real
+
+inicio
+  escreval("Digite o valor de custo do produto em R$: ")
+  leia(vlrcusto)
+  escreval("Digite o percentual de lucro desejado: ")
+  leia(prc)
+  vlrluc<-vlrcusto*(prc/100)
+  vlrfinal<-vlrcusto+vlrluc
+  escreval("O valor de lucro é igual a: R$ ",vlrluc," e o valor de venda final é igual a: R$ ",vlrfinal)
+fimalgoritmo

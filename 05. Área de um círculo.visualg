@@ -1,0 +1,14 @@
+algoritmo "Área de um círculo"
+
+var
+  raio,pi,area: real
+
+inicio
+
+  escreval("Digite o valor do raio do círculo: ")
+  leia(raio)
+  pi<-3.14
+  area<-pi*(raio*raio)
+  escreval("A área do círculo é igual a ",area," cm²")
+
+fimalgoritmo

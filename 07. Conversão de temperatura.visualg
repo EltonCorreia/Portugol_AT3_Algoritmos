@@ -1,0 +1,11 @@
+algoritmo "Conversão de temperatura"
+
+var
+  cel,fah:real
+
+inicio
+  escreval("Digite uma temperatura em Celsius: ")
+  leia(cel)
+  fah<-(cel*9/5)+32
+  escreval(cel," Cº é equivalente a ",fah," ºF")
+fimalgoritmo

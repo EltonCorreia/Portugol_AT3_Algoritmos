@@ -1,0 +1,14 @@
+algoritmo "Antecessor e sucesso"
+
+var
+  num,ant,suc:inteiro
+
+inicio
+  escreval("Digite um valor: ")
+  leia(num)
+
+  ant<-num-1
+  suc<-num+1
+
+  escreval("O antecessor desse valor é: ",ant ," | O sucessor desse valor é: ",suc)
+fimalgoritmo

@@ -1,0 +1,12 @@
+algoritmo "Reajuste de salário"
+
+var
+  sal,reaj,novosal: real
+
+inicio
+  escreval("Digite seu salario atual: ")
+  leia(sal)
+  reaj<-8/100
+  novosal<-sal+(sal*reaj)
+  escreval("O valor do original do seu salário é: R$ ",sal," | O valor do reajuste é: ",reaj," | O valor do novo salário é: R$ ",novosal,)
+fimalgoritmo

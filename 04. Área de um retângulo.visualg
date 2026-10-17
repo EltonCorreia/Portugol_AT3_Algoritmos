@@ -1,0 +1,13 @@
+algoritmo "Área de um retângulo"
+
+var
+  vlrBase,vlrAltura,area:real
+
+inicio
+  escreval("Digite o valor da base do retângulo: ")
+  leia(vlrBase)
+  escreval("Digite o valor da altura do retângulo: ")
+  leia(vlrAltura)
+  area<-vlrBase*vlrAltura
+  escreval("A área do retângulo de base ",vlrBase,"cm e altura ",vlrAltura,"cm é igual a ",area,"cm.")
+fimalgoritmo

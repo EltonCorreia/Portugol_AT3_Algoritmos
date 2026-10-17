@@ -1,0 +1,14 @@
+algoritmo "Divisão de uma conta"
+
+var
+  p,divs: inteiro
+  vlrtotal: real
+
+inicio
+  escreval("Digite o valor total da conta em R$: ")
+  leia(vlrtotal)
+  escreval("Digite a quantidade exata de pessoas na mesa: ")
+  leia(p)
+  divs<-vlrtotal div p
+  escreval("O valor exato que as ",p," pessoas devem pagar é igual a: R$ ",divs)
+fimalgoritmo

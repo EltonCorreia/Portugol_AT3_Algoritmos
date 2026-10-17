@@ -1,0 +1,16 @@
+algoritmo "Valor da viagem"
+
+var
+  dist,cons,vlrcom,litro,gasto: real
+
+inicio
+  escreval("Digite a distância da viagem em KM: ")
+  leia(dist)
+  escreval("Digite o consumo médio do seu veículo em KM/L: ")
+  leia(cons)
+  escreval("Digite o valor do litro de combustível: ")
+  leia(vlrcom)
+  litro<-dist/cons
+  gasto<-litro*vlrcom
+  escreval("A quantidade em L de combustível para uma viagem de ",dist," KM é igual a: ",litro," L | E o gasto aproximado com combustível é igual a: R$ ",gasto)
+fimalgoritmo

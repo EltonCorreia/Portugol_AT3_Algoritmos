@@ -1,0 +1,12 @@
+algoritmo "Conversão de tempo"
+
+var
+  h,min,seg: inteiro
+
+inicio
+  escreval("Digite uma quantidade inteira de horas: ")
+  leia(h)
+  min<-h*60
+  seg<-min*60
+  escreval(h,"h é igual a: ",min," min e é igual a: ",seg,"seg")
+fimalgoritmo

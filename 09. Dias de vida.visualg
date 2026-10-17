@@ -1,0 +1,12 @@
+algoritmo "Dias de vida"
+
+var
+  idade,diavida,ano:inteiro
+
+inicio
+  escreval("Escreva sua idade: ")
+  leia(idade)
+  ano<-365
+  diavida<-(idade*ano)
+  escreval("Você tem ",idade," anos de idade. Você viveu cerca de ",diavida," dias de vida.")
+fimalgoritmo

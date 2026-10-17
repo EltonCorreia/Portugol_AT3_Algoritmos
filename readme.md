@@ -1,0 +1,1 @@
+Lista de exercícios feito em Portugol.

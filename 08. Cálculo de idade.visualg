@@ -1,0 +1,13 @@
+algoritmo "Cálculo de idade"
+
+var
+  anoatual,nasc,idade:inteiro
+
+inicio
+  escreval("Escreva o ano atual:")
+  leia(anoatual)
+  escreval("Escreva seu ano de nascimento: ")
+  leia(nasc)
+  idade<-(anoatual-nasc)
+  escreval("Você tem ",idade," anos de idade no ano de ",anoatual)
+fimalgoritmo

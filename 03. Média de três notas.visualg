@@ -1,0 +1,15 @@
+algoritmo "Média de três notas"
+
+var
+  nota1,nota2,nota3,media:inteiro
+
+inicio
+  escreval("Digite a primeira nota: ")
+  leia(nota1)
+  escreval("Digite a segunda nota: ")
+  leia(nota2)
+  escreval("Digite a terceia nota: ")
+  leia(nota3)
+  media<-(nota1+nota2+nota3)/3
+  escreval("A média das notas é igual: ",media,)
+fimalgoritmo

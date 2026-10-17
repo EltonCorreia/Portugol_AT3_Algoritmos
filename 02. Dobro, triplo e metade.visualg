@@ -1,0 +1,13 @@
+algoritmo "Dobro, triplo e metade"
+
+var
+  num,dob,tri,met:inteiro
+
+inicio
+  escreval("Digite um valor: ")
+  leia(num)
+  dob<-num*2
+  tri<-num*3
+  met<-num/2
+  escreval("O dobro de ",num," é: ",dob," | O triplo de ",num," é: ",tri," | A metade de ",num," é: ",met)
+fimalgoritmo
